@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+    justify-content: center;
+}
+.todoList{
+    border: 3px solid green;
+    border-radius: 5px;            
+    padding: 20px; 
+    position: relative; 
+    top: 0%;          
+    left: 50%;
+    transform: translate(-50%, 10%);
+}
+ol{
+    text-align: center;
+    justify-content: center;
+    position: fixed;
+    margin-bottom: 10px;
+}
+p{
+    color: red;
+}
+ol{
+    text-align: left;
+    width: 900px;
+    max-width: 80%;
+    color: red;
+    display: block;
+    word-wrap: break-word;
+}
+li{
+    margin: 10px;
+}

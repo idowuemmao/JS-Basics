@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    padding: 10px;
+    justify-content: center;
+}
+.input{
+    display: flex;
+    margin-top: 20px;
+}
+label{
+    font-size: 2rem;
+    text-align: center;
+    justify-content: center;
+    font-weight: 800;
+    margin-right: 10px;
+}
+textarea{
+    width: 90%;
+    display: inline-flex;
+}
+button{
+    margin-top: 10px;
+    padding: 5px 15px;
+    background-color: red;
+    border: none;
+    margin-right: 3rem;
+    color: white;
+}
+button:hover{
+    background-color: green;
+    scale: 1.2;
+    transition: 500ms;
+}
+#output{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    align-items: center;
+    text-align: left;
+    margin: 20px;
+}
+.eachOutput{
+    border: 2px solid red;
+    margin-top: 2rem;
+        
+}
+.out{
+    border: 1px solid blue;
+    background-color: gold;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 1rem 1.5rem;
+    text-align: justify;
+    border: none;
+}
+.out:hover{
+    scale: 1.1;
+    background-color: blueviolet;
+    color: white;
+}
+#add-note{
+    background-color: green;   
+}
+#add-note:hover{
+    background-color: blue;
+}

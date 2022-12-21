@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    margin-top: 2rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 3rem;
+    background-color: black;
+}
+div{
+    width:fit-content;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
